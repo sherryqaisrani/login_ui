@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_page_ui/login.dart';
+import 'package:login_page_ui/register.dart';
 
 void main() {
   runApp(myApp());
@@ -14,7 +15,7 @@ class myApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // initialRoute: 'loginPage',
       // routes: {'login': (context) => LoginPage()},
-      home: LoginPage(),
+      home: register(),
     );
   }
 }
